@@ -1,7 +1,7 @@
 # Distributed-HPC
 Distributed-HPC est une application de commerce électronique distribuée qui permet de gérer le catalogue de produits, les stocks, les commandes et la facturation. Cette application est composée de plusieurs parties principales :
 
-## Customer-service
+## (Customer-service)[https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Customer%20Service]
 Le micro-service Customer-service permet de gérer les informations des clients et de suivre leurs commandes.
 
 - Création de l'entité Customer
