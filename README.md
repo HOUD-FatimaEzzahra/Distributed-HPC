@@ -1,5 +1,5 @@
 # Distributed-HPC
-Distributed-HPC est une application de commerce électronique distribuée qui permet de gérer le catalogue de produits, les stocks, les commandes et la facturation. Cette application est composée de plusieurs parties principales :
+Distributed-HPC est une application de commerce électronique distribuée qui permet de gérer le catalogue de produits, les stocks, les commandes et la facturation. Elle utilise des technologies de calcul haute performance (High-Performance Computing, HPC) et est conçue pour fonctionner de manière distribuée, en utilisant plusieurs micro-services pour gérer différentes parties de l'application. Les micro-services communiquent entre eux via des API RESTful et sont gérés par un annuaire de services. Le but de Distributed-HPC est de fournir une solution de commerce électronique rapide, évolutive et résiliente aux entreprises de toutes tailles. Cette application est composée de plusieurs parties principales :
 
 ## [Customer-service](https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Customer%20Service)
 Le micro-service Customer-service permet de gérer les informations des clients et de suivre leurs commandes.
