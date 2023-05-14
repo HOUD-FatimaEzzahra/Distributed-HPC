@@ -3,27 +3,25 @@ Distributed-HPC est une application de commerce électronique distribuée qui pe
 
 ## [Customer-service](https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Customer%20Service)
 Le micro-service Customer-service permet de gérer les informations des clients et de suivre leurs commandes.
-
 - Création de l'entité Customer
 - Création de l'interface CustomerRepository basée sur Spring Data
 - Déploiement de l'API Restful du micro-service en utilisant Spring Data Rest
 - Test du Micro-service
 
-## Inventory-service
+## [Inventory-service](https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Inventory%20Service)
 Le micro-service Inventory-service permet de gérer le catalogue de produits et de suivre les niveaux de stock.
-
 - Création de l'entité Product
 - Création de l'interface ProductRepository basée sur Spring Data
 - Déploiement de l'API Restful du micro-service en utilisant Spring Data Rest
 - Test du Micro-service
-## Gateway service
-Le Gateway service permet de gérer les requêtes entrantes et sortantes, d'appliquer des filtres et de protéger l'application contre les attaques.
 
+## [Gateway service](https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Gateway)
+Le Gateway service permet de gérer les requêtes entrantes et sortantes, d'appliquer des filtres et de protéger l'application contre les attaques.
 - Test de la Service proxy en utilisant une configuration statique basée sur le fichier application.yml
 - Test de la Service proxy en utilisant une configuration statique basée sur une configuration Java
-## Registry Service
-Le Registry Service est un service de découverte de services qui permet de découvrir les services disponibles sur le réseau.
 
+## [Registry Service](https://github.com/HOUD-FatimaEzzahra/Distributed-HPC/tree/main/Eureka%20Discovery)
+Le Registry Service est un service de découverte de services qui permet de découvrir les services disponibles sur le réseau.
 - Création de l'annuaire Registry Service basé sur NetFlix Eureka Server
 - Test du proxy en utilisant une configuration dynamique de gestion des routes vers les micro-services enregistrés dans l'annuaire Eureka Server
 ## Billing-Service
